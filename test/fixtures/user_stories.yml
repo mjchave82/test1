@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  headline: MyString
+  user: MyString
+  capability: MyString
+  reason: MyString
+  comments: MyText
+  acceptance_criteria: MyText
+  size: 9.99
+  epic: false
+  blocked: false
+  priority: MyString
+  status: MyString
+
+two:
+  headline: MyString
+  user: MyString
+  capability: MyString
+  reason: MyString
+  comments: MyText
+  acceptance_criteria: MyText
+  size: 9.99
+  epic: false
+  blocked: false
+  priority: MyString
+  status: MyString

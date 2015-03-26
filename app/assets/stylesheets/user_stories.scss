@@ -1,0 +1,100 @@
+// Place all the styles related to the User_Stories controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html
+{
+max-width: 1200px;
+background: #D3D3D3;
+margin-left: auto;
+margin-right: auto;
+}
+
+body
+{
+background: #555;
+padding: 20px 30px 20px 30px;
+font: 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: #D3D3D3;
+border-radius: 10px;
+}
+
+a:link {
+color: #FFCC02;
+}
+
+a:visited {
+color: #FFCC02;
+}
+
+a:hover {
+color: #EBEBEB;
+}
+
+table {
+border-collapse:collapse;
+}
+
+th, td
+{
+padding: 0px 0px 10px 40px;
+}
+
+tr:nth-child(odd) td
+{
+background-color: #666;
+}
+
+.add {
+display: inline-block;
+width: 46px;
+height: 46px;
+background-size: 46px;
+background-repeat: no-repeat;
+background-image: url('add.png');
+}
+
+.add:hover {
+background-color: transparent;
+}
+
+.delete {
+display: inline-block;
+width: 32px;
+height: 32px;
+background-size: 32px;
+background-repeat: no-repeat;
+}
+
+.delete:hover {
+background-image: url('delete.png');
+background-color: transparent;
+}
+
+h1 {
+padding: 0px 0px 10px 40px;
+border-bottom: 1px solid #444;
+margin: -10px -30px 30px -30px;
+}
+
+.button {
+background: #FFCC02;
+border: none;
+padding: 10px 25px 10px 25px;
+color: #585858;
+border-radius: 4px;
+}
+
+.button:hover {
+color: #333;
+background-color: #EBEBEB;
+}
+
+input[type="text"]
+{
+width:500px;
+}
+textarea{
+width:500px;
+Height:50px;
+}
